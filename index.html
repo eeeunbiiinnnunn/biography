@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>은빈의 웹프로필</title>
+    <style>
+        body {
+            background-color: lemonchiffon;
+        }
+        .wrap {
+            margin: 10px auto 0px auto;
+            width: 400px;
+        }
+
+        .title {
+            letter-spacing: .5em;
+            font-size: 40px;
+        }
+
+        .photo {
+            width: 400px;
+            height: 400px;
+            background-color: burlywood;
+            background-image: url(IMG_4059\ \(1\).jpg);
+            background-position: center;
+            background-size: cover;
+
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            text-align: right;
+            /* 텍스트를 오른쪽 정렬 */
+            padding-top: 5px;
+            padding-right: 15px;
+            box-sizing: border-box;
+
+        }
+        .profile>p {                      
+                        padding-left: 15px;
+                        text-indent: -15px;
+                        line-height: 1.5;
+                    }
+                    .profile>p>button {
+                        background-color: rgb(200, 251, 123);
+                        box-shadow: 3px 3px 5px 0px rgb(172, 172, 172);
+            
+                        width: 380px;
+                        padding: 5px 3px 5px 3px;
+            
+                        border: none;
+                        border-radius: 8px;
+                        font-size: 17px;
+                        cursor: grab;
+                    }
+                    .profile>p>button:hover{
+                        background-color: darkolivegreen;
+                    }
+                
+                
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+    <h1 class="title">BIOGRAPHY</h1>
+    <div class="photo">PARK EUN BIN</div>
+    <div class="profile">
+        <p>
+            <span style="color: gray; font-weight: bold;">생년월일</span>
+            <br>2007년 12월 6일
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bold;">대표업적</span>
+            <br>2025년 서울 상경하기
+            <br>서브웨이가서 혼자 주문해보기
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bold;">연구자료</span>
+            <br><button onclick="window.open('./article.html')">연구자료 제목</button>
+        </p>
+        <p>
+            <span style="color: gray; font-weight: bold;">추천도서</span>
+            <br><button onclick="window.open('https://www.yes24.com/Product/Goods/126679765')">스튜디오 지브리의 다양한 생활</button>
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>
